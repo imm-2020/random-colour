@@ -13,6 +13,7 @@ let setRandomBackgroundColour = () => {
 
   // ADVANCED "FUN":
   // Applying the YIQ contrast method for text colours: https://en.wikipedia.org/wiki/YIQ
+  // Explained here in more detail: https://stackoverflow.com/a/3943023
   //
   // let fgColour = ((colourR*0.299 + colourG*0.587 + colourB*0.114) > 186) ? `black` : `white`
   // document.querySelector('body').style.color = fgColour
